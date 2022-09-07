@@ -11,27 +11,24 @@ import java.util.Random;
  */
 public class EmployeeWage {
 
-	public static void employeeIsPresentOrNot() {
-		
-			Random rand = new Random();
-			System.out.println("Employee attendance is: ");
-			int k = rand.nextInt(2);
-			System.out.println(k);
-			if(k==0) {
-				System.out.println("Employee is Absent: " + k);
-			}
-				else if(k==1){
-					System.out.println("Employee is Present: " + k );
-				}
-			}
-	
 	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// Driving Code
-		employeeIsPresentOrNot();
+		Random rand = new Random();
+		System.out.println("Employee attendance is: ");
+		int k = rand.nextInt(2);
+		System.out.println(k);
+		if(k==0) {
+			System.out.println("Employee is Absent: " + k);
+		}
+			else if(k==1){
+				System.out.println("Employee is Present: " + k );
+			}
+		}
+
 	}
 
-}
+
