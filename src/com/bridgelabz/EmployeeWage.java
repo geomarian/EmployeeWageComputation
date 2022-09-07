@@ -11,8 +11,9 @@ import java.util.Random;
  */
 public class EmployeeWage {
 
-	public static void employeeIsPresentOrNot() {
-		
+	
+		public static void main(String[] args) {
+			// Driving Code
 			Random rand = new Random();
 			System.out.println("Employee attendance is: ");
 			int k = rand.nextInt(2);
@@ -24,14 +25,6 @@ public class EmployeeWage {
 					System.out.println("Employee is Present: " + k );
 				}
 			}
-	
-	
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// Driving Code
-		employeeIsPresentOrNot();
-	}
+
 
 }
