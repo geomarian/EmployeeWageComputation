@@ -17,7 +17,7 @@ public class EmployeeWageUC1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Random rand = new Random();
-		System.out.println("Employee attendance is: ");
+		System.out.println("Employee attendance is = ");
 		int k = rand.nextInt(2);
 		System.out.println(k);
 	
@@ -33,12 +33,7 @@ public class EmployeeWageUC1 {
 			System.out.println(salary);
 		}
  
-	
-	
 	}
-
-
-
 	}
 
 
