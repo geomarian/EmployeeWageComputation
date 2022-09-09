@@ -10,7 +10,6 @@ import java.util.Random;
  *
  */
 public class UC2_DailyEmployeeWage {
-
 	public static void calculateFullTimeRate() {
 		
 	//	int isPresent =1;
